@@ -1,6 +1,6 @@
 Name:           jetty-version-maven-plugin
 Version:        1.0.7
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Jetty version management Maven plugin
 
 License:        ASL 2.0 or EPL
@@ -53,6 +53,9 @@ pushd %{name}
 %doc LICENSE-APACHE-2.0.txt LICENSE-ECLIPSE-1.0.html notice.html
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.7-9
+- Mass rebuild 2013-12-27
+
 * Thu Jul 11 2013 Michal Srb <msrb@redhat.com> - 1.0.7-8
 - Build with XMvn
 - Fix BR
